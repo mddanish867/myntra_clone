@@ -1,0 +1,334 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {    
+    .cart_address_header{
+     width: 100%;
+    }
+    ._address_stepper{
+        width: 100%;
+    }
+    .cart_auth_address{
+        width: 100%;
+    }
+    .cart_address_summry{
+        width: 1200px;
+    }
+   }
+*{
+    background-color: #fff;
+}
+.cart_address_header {
+    height: 78px;
+    border: 1ps solid #ccc;
+}
+
+.logo_container_cart {
+    margin-left: 51px;
+    margin-top: 4px;
+}
+
+.myntra_home_cart {
+    height: 40px;
+    margin-top: 14px;
+}
+
+._address_stepper {
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    margin-left: 485px;
+    margin-top: -27px;
+}
+
+.cart_address {
+    border-bottom: 2px solid #04966a;
+    color: #04966a;
+}
+
+.cart_auth_address {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1057px;
+    margin-top: -25px;
+}
+
+.cart_sec_address_image {
+    height: 28px;
+
+}
+
+.cart_auth_address>span {
+    font-size: 11px;
+    margin-top: 7px;
+    margin-left: 4px;
+    font-weight: 500;
+}
+
+.cart_address_summry {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #eee;}
+
+.select_delivery_address {
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px;
+    width: 636px;
+    height: 71px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.delivery_address_btn {
+    border: 1px solid rgb(28, 28, 28);
+    background-color: white;
+    color: rgb(28, 28, 28);
+    padding: 14px 28px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 2;
+    height: 38px;
+    width: 155px;
+    font-size: 10px;
+    margin-left: 234px;
+    font-weight: 700;
+}
+
+.delivery_address_btn:hover {
+    color: rgb(28, 28, 28);
+    border: 1px solid rgb(28, 28, 28);
+
+}
+
+.cart_deatils_desc_address {
+    flex-grow: .6%;
+}
+.address_cart_total_summary{
+    border: 1px solid #eee;
+    margin-left: 22px;
+    width: 600px;
+    border-top: none;
+}
+
+
+.product_summary_cart{
+    display: flex;
+    flex-direction: column;
+    margin-top: -25px;
+}
+.price_details{
+    font-size: 12px;
+    font-weight: 700;
+    color: gray;
+    margin-left: 15px;
+}
+.total_mrp{
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+.discount_on_mrp{
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+.coupon_discount_rs{
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 9px;
+    display: flex;
+    flex-direction: row;
+}
+.platform_fee{
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+.shippin_fee{
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+.know_more_mrp_discount{
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ff3e6c;
+}
+.know_more_platform_fee{
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ff3e6c;
+}
+.know_more_shipping_fee{
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(255, 63, 108);
+}
+.product_cart_total{
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+.place_order_btn{
+    margin-left: 15px;
+    width: 335px;
+    height: 40px;
+    border: 1px solid pink;
+    color: #fff;
+    background-color: #ff3e6c;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.place_order_btn:hover{
+    background-color: #ff3e6c;
+
+}
+.cart_product_address{
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 142px;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px 1px;
+}
+.cart_product_address:hover{
+    cursor: pointer;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.cart_product_address > p{    
+    margin-left: 35px;
+}
+.selected_address{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+.selected_address>p{
+    font-size: 12px;
+    color: gray;
+}
+.address_button{
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.btn-remove{
+    border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-size: 11px;
+  font-weight: 600;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+}
+.btn-remove:hover {
+    border: 1px solid black;
+  background-color: white;
+  color: black;
+  }
+
+.btn_default_edit{
+    border: 1px solid black;
+  background-color: white;
+  color: black;
+  font-size: 11px;
+  font-weight: 600;
+  margin-left: 25px;
+  height: 30px;
+  width: 60px;
+  border-radius: 3px;
+}
+.btn_default_edit:hover {
+    border: 1px solid black;
+  background-color: white;
+  color: black;
+  }
+
+
+
+.see_exis_item{
+    width: 636px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 142px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+    height: 71px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px 1px;
+
+}
+.see_exis_item:hover{
+    cursor: pointer;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.add_new_address{
+    border: none;
+    color: #ff3e6c;
+    padding: 14px 28px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0;
+    height: 42px;
+    width: 185px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: -25px;
+}
+.add_new_address:hover{
+    color: #ff3e6c;
+}
+.add_new_address:focus{
+    color: rgb(255, 63, 108);
+
+}
+
+.mayment_method{
+    display: flex;
+    flex-direction: row;
+    margin-left: 141px;  
+    margin-bottom: 10px;  
+}
+.mayment_method > img{
+    width: 64px;
+    height: 40px;
+}
+.delivery_estimate{
+    display: flex;
+    flex-direction: column;
+}
+.product_image{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 45px;
+}
+.product_image > p{
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.product_image > img{
+    height: 55px;
+    margin-left: 20px;
+
+}
+.delivery_heading{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 15px;
+}

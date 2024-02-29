@@ -1,0 +1,169 @@
+.address_my_header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 81px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.address_account_header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 60px;
+    margin-left: 143px;
+    margin-right: 156px;
+}
+
+.address_account_header>p {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.address_account_header>span {
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.address_order_content {
+    display: flex;
+    flex-direction: row;
+}
+.address_my_order_head {
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    width: 170px;
+    border-right: 1px solid #ccc;
+}
+.address_btn_overview {
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+.address_order_return {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    width: 170px;
+    border-right: 1px solid #ccc;
+}
+
+.address_order_return>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+.address_order_credits {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.address_order_credits>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+.address_order_account {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.address_order_account>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+.address_main_prfile{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 750px;
+}
+.address_details{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.address_btn{
+    display: flex;
+    flex-direction: row;
+}
+.address_btn>button{
+    margin-left: 350px;
+    color:#526cd0;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 11px;
+    font-size: 12px;
+    font-weight: 700;
+    width: 175px;
+}
+.address_details_saved{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.address_details{
+    margin-right: 78px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.address_details:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
+.address_name{
+    display: flex;
+    flex-direction: row;
+}
+.address_name>p{
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight: 700;
+    color: gray;
+    margin-top: 15px;
+}
+.address_name>span{
+    margin-top: 15px;
+    margin-left: 474px;
+    background-color: #f1f1f1;
+    color: gray;
+    border-radius: 30%;
+    height: 25px;
+}
+.address_fields{
+    display: flex;
+    flex-direction: column;
+}
+.address_fields>span{
+    margin-left: 10px;
+    font-size: 13px;
+    color: gray;
+    font-weight: 400;
+}
+.address_edit_remove_btn{
+    display: flex;
+    flex-direction: row;
+}
+.address_edit_remove_btn>button{
+    padding: 8px;
+    border: none;
+    width: 332px;
+    border-right:1px solid #eee ;
+    margin-top: -10px;
+    font-size: 13px;
+    color: #526cd0;
+    font-weight: 700;
+}

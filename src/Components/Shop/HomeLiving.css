@@ -1,0 +1,80 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+   .homeliving_nice{
+    width: 1200px;
+   }
+  .homeliving_featured_brands{
+    width: 1200px;
+  }
+ }
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 81px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.homeliving_nice{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.6em;
+    margin-left: 100px;
+    max-height: 5em;
+    font-weight: 700;
+    margin-top: 55px;
+}
+.homeliving_shop_by_nice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    padding: 30px;
+    width: 1263px;
+    left: 0;
+}
+.homeliving_nice_img{
+    width: 550px;
+}
+.home_living_trends{
+    left: 0;
+    width: 1263px;
+}
+.homeliving_shop_by_trends_totake_home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    width: 1263px;
+    margin-top: -32px;   
+    left: 0;
+}
+.homeliving_trends_totake_home{
+    width: 401px;   
+}
+.homeliving_featured_brands{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.6em;
+    margin-left: 100px;
+    max-height: 5em;
+    font-weight: 700;
+    margin-top: 55px;
+}
+.homeliving_shop_by_featured_brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    margin-bottom: 100px;
+    padding: 30px;
+    width: 1200px;
+    margin-left: 35px;
+}
+.homeliving_featured_brands_img{
+    width: 200px;
+}

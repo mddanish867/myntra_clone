@@ -1,0 +1,246 @@
+._my_header {
+    display: flex;
+    height: 81px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.account_header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 60px;
+    margin-left: 143px;
+    margin-right: 156px;
+}
+
+.account_header>p {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.account_header>span {
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.order_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.my_order_head {
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    width: 170px;
+    border-right: 1px solid #ccc;
+}
+
+.btn_overview {
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.order_return {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 140px; */
+    width: 170px;
+    border-right: 1px solid #ccc;
+}
+
+.order_return {
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.order_return>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.order_credits {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.order_credits>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.order_account {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.order_account>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.account_profile {
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    height: 178px;
+    margin-left: 15px;
+    width: 675px;
+}
+
+.account_profile>img {
+    width: 170px;
+    background: 0;
+}
+
+.account_profile>button {
+    font-weight: 600;
+    font-size: 12px;
+    width: 96px;
+    height: 30px;
+    border: 1px solid #ccc;
+    color: black;
+    margin-left: 376px
+}
+
+.account_profile:hover {
+    outline: none;
+    color: black;
+}
+
+.check_order_status {
+    background: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    width: 214px;
+    height: 214px;
+    align-items: center;
+    margin-left: 16px;
+    margin-top: 30px
+}
+.check_order_status:hover{
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+}
+.check_order_status>img {
+    background: 0;
+    width: 35px;
+    margin-top: 60px;
+}
+.check_order_status>p{
+    background: 0;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.check_order_status>span{
+    background: 0;
+    font-size: 12px;
+    color: gray;
+    margin-top: -18px;
+}
+.check_collection_status {    
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    width: 214px;
+    height: 214px;
+    align-items: center;
+    margin-left: 16px;
+    margin-top: 30px
+}
+.check_collection_status:hover{
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+}
+.check_collection_status>img {
+    background: 0;
+    width: 35px;
+    margin-top: 60px;
+}
+.check_collection_status>p{
+    background: 0;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.check_collection_status>span{
+    background: 0;
+    font-size: 12px;
+    color: gray;
+    margin-top: -18px;
+}
+.check_myntra_credits {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee;
+    width: 214px;
+    height: 214px;
+    align-items: center;
+    margin-left: 16px;
+    margin-top: 30px
+}
+.check_myntra_credits:hover{
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+}
+.check_myntra_credits>img {
+    background: 0;
+    width: 35px;
+    margin-top: 60px;
+}
+.check_myntra_credits>p{
+    background: 0;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.check_myntra_credits>span{
+    background: 0;
+    font-size: 12px;
+    color: gray;
+    margin-top: -18px;
+}
+.link_order_wishlist_myntra {
+    display: flex;
+    flex-direction: row;
+}
+
+.move_into_column {
+    display: flex;
+    flex-direction: column;
+}
+.link_btn_logout{
+    margin-left: 18px;
+}
+.link_btn_logout>button{
+    background-color:#ff3e6c;
+    border:1px solid #ff3e6c;
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    width: 260px;
+    height: 48px;
+    margin-top: 30px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+}

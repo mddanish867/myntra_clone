@@ -1,0 +1,344 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {    
+    .payment_cart_header{
+     width: 100%;
+    }
+    .cart_payment_stepper{
+        width: 100%;
+    }
+    .cart_auth_payment_sec{
+        width: 100%;
+    }
+    .cart_summry_payment{
+        width: 1200px;
+    }
+   }
+* {
+    background-color: #fff;
+}
+
+.payment_cart_header {
+    height: 78px;
+    /* border: 1px solid #ccc; */
+}
+
+._payment_logo_container {
+    margin-left: 51px;
+    margin-top: 4px;
+}
+
+.payment_myntra_home {
+    height: 45px;
+    margin-top: 14px;
+    margin-left: -5px;
+}
+
+.cart_payment_stepper {
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    margin-left: 485px;
+    margin-top: -27px;
+}
+
+.cart_paymet {
+    border-bottom: 2px solid #04966a;
+    color: #04966a;
+}
+
+.cart_auth_payment_sec {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1057px;
+    margin-top: -25px;
+}
+
+.cart_sec_payment_image {
+    height: 28px;
+
+}
+
+.cart_auth_payment_sec>span {
+    font-size: 11px;
+    margin-top: 7px;
+    margin-left: 4px;
+    font-weight: 500;
+}
+
+.cart_summry_payment {
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+}
+
+.cart_deatils_desc_payment {
+    flex-grow: .6%;
+}
+
+.cart_total_summary {
+    border: 1px solid #eee;
+    margin-top: -3px;
+    margin-left: 60px;
+    width: 600px;
+    margin-top: 28px;
+}
+
+
+.product_summary_cart {
+    display: flex;
+    flex-direction: column;
+}
+
+.price_details {
+    font-size: 12px;
+    font-weight: 700;
+    color: gray;
+    margin-left: 15px;
+}
+
+.total_mrp {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.discount_on_mrp {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+
+.coupon_discount_rs {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 9px;
+    display: flex;
+    flex-direction: row;
+}
+
+.platform_fee {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+
+.shippin_fee {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+
+.know_more_mrp_discount {
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ff3e6c;
+}
+
+.know_more_platform_fee {
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ff3e6c;
+}
+
+.know_more_shipping_fee {
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    color: r#ff3e6c;
+}
+
+.product_cart_total {
+    font-size: 14px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.place_order_btn {
+    margin-left: 15px;
+    width: 335px;
+    height: 40px;
+    border: 1px solid pink;
+    color: #fff;
+    background-color: #ff3e6c;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.place_order_btn:hover {
+    background-color: #ff3e6c;
+
+}
+
+.avail_offers_payment {
+    display: flex;
+    flex-direction: column;
+    margin-left: 132px;
+    margin-top: 26px;
+    border: 1px solid #eee;
+    width: 593px;
+}
+
+.avail_offers_tag_payment {
+    margin-left: 18px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.avail_0ffers_list_payment {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: -16px;
+}
+
+.show_more_btn_payment {
+    color: #ff3e6c;
+    margin-left: -480px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.show_more_btn_payment:hover {
+    color: #ff3e6c;
+}
+
+.show_more_btn_payment:focus {
+    color: #ff3e6c;
+    outline: none;
+}
+
+.mayment_method {
+    display: flex;
+    flex-direction: row;
+    margin-left: 141px;
+    margin-bottom: 10px;
+}
+
+.mayment_method>img {
+    width: 64px;
+    height: 40px;
+}
+
+.payment_option {
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: row;
+    margin-left: 132px;
+    border-left: 0;
+}
+
+.payment_name_recommend {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.recommend_btn {
+    width: 210px;
+    height: 65px;
+    border: none;
+    background: rgb(254, 254, 254);
+}
+
+.recomend_options {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 18px;
+    font-weight: 500;
+}
+
+.payment_checked {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.payment_checked:hover{
+    cursor: pointer;
+}
+
+.google_pay_mode {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+}
+
+.Cod_payment {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.cod_image {
+    padding: 25px;
+    border: 1px solid gray;
+    width: 222px;
+    text-align: center;
+}
+
+.cod_image:focus {
+    outline: none;
+}
+
+.cod_payment_code {
+    padding: 10px;
+    background: 0;
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 320px;
+}
+
+.cod_payment_code:focus {
+    outline: none;
+}
+
+.cod_payment_span {
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.cod_btn_payment {
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid #ff3e6c;
+    background-color: #ff3e6c;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.Gpay_payment {
+    display: flex;
+    flex-direction: column;
+}
+
+.Gpay_payment_code {
+    padding: 10px;
+    background: 0;
+    border: 1px solid gray;
+    margin-top: 10px;
+    width: 320px;
+}
+
+.Gpay_payment_code:focus {
+    outline: none;
+}
+
+.Gapy_btn_payment {
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid #ff3e6c;
+    background-color: #ff3e6c;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

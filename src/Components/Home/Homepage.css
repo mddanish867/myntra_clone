@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSytemFont, Segoe UI, Robot, Helvetica, Arial, sans-serif;
+}
+
+.header {
+   
+    display: flex;
+    height: 81px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .category_item{width: 1200px;}
+    .footer{
+        width: 1200px;
+    }
+    .header{
+        width: 1200px;
+    }
+}

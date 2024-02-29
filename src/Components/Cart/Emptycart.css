@@ -1,0 +1,96 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .emptycart_header{
+        width: 100%;
+    }
+    .emptycart_address_stepper{
+        width: 100%;
+    }
+    .emptycart_auth_sec{
+        width: 100%;
+    }
+    .empty_cart{
+        width: 1200px;
+    }
+  }
+.empty_cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+}
+.empty_cart > img{
+    width: 146px;
+    height: 153px;
+    margin-left: -5px;
+}
+.empty_cart > h4{
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.empty_cart > p{
+    font-size: 14px;
+    color: gray;
+}
+.empty_cart>button{
+    border: 1px solid #f54e77;
+    border-radius: 2px;
+    color: #f54e77;
+    font-weight: 700;
+    font-size: 14px;
+    height: 45px;
+    padding-top: 11px;
+    width: 230px;
+    padding-left: 19px;
+}
+.empty_cart > button:hover{
+    border: 1px solid #f54e77;
+    border-radius: 2px;
+    color: #f54e77;
+    font-weight: 700;
+    font-size: 14px;
+}
+.empty_cart>button:focus{
+    border: 1px solid #ff3e6c;
+    border-radius: 2px;
+    color: #ff3e6c;
+    font-weight: 700;
+    font-size: 14px;
+}
+.emptycart_header {
+    height: 78px;
+    border: 1ps solid #ccc;
+}
+.emptycart_logo_container {
+    margin-left: 51px;
+    margin-top: 4px;
+}
+.emptycart_myntra_home {
+    height: 45px;
+    margin-top: 14px;
+    margin-left: -5px
+}
+.emptycart_address_stepper {
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    margin-left: 485px;
+    margin-top: -27px;
+}
+.emptycart_auth_sec {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1057px;
+    margin-top: -25px;
+}
+.emptycart_auth_sec>span {
+    font-size: 11px;
+    margin-top: 7px;
+    margin-left: 4px;
+    font-weight: 500;
+}
+.emptycart_sec_image {
+    height: 28px;
+
+}

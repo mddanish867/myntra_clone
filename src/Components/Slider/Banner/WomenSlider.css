@@ -1,0 +1,11 @@
+.banner_container{
+    margin-top: 42px;
+}
+.banner_image{
+    width: 100%;
+    height: 340px;
+    margin-top: 40px;
+}
+.carousel-indicators{
+    background: 0;
+}

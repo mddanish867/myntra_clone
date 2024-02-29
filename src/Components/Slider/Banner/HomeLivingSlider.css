@@ -1,0 +1,16 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .homeliving_cimgae{
+        width: 100%;
+    }
+  }
+.banner_container{
+    margin-top: 42px;
+}
+.banner_image{
+    height: 340px;
+    margin-top: 40px;
+}
+.carousel-indicators{
+    background: 0;
+}

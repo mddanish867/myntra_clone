@@ -1,0 +1,107 @@
+
+.delivery_address_btn {
+  border: 1px solid rgb(28, 28, 28);
+  background-color: white;
+  color: rgb(28, 28, 28);
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 2;
+  height: 38px;
+  width: 155px;
+  font-size: 10px;
+  margin-left: 234px;
+  font-weight: 700;
+  padding-top: 11px;
+}
+
+.delivery_address_btn:hover {
+  color: rgb(28, 28, 28);
+  border: 1px solid rgb(28, 28, 28);
+
+}
+.addnew_address{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.addnew_address>input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+}
+.addnew_address>input:focus{
+  outline: none;
+}
+.addnew_address>span{
+  font-size: 12px;
+    font-weight: 700;
+    margin-top: 15px
+}
+.city_district{display: flex;
+flex-direction: row;}
+
+.city_district>input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+}
+.city_district>input:focus{
+  outline: none;
+}
+.boxed label {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  padding-top: 5px;
+  padding-left: 19px;
+  padding-bottom: 10px;
+  border: solid 1px #ccc;
+  transition: all 0.3s;
+  font-size: 14px;
+  border-radius: 50px;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  color: gray;
+}
+
+.boxed input[type="radio"] {
+  display: none;
+}
+
+.boxed input[type="radio"]:checked + label {
+  border: solid 1px #ff3e6c;
+  color: #ff3e6c;
+}
+div.addnew_address {
+  max-height: 350px;
+  overflow-y: scroll;
+}
+.add_addresspopup_btn{
+  font-size: 14px;
+    border: 1px solid #ff3e6c!important;
+    width: 435px;
+    margin-right: 25px;
+    font-weight: 700;
+    padding: 12px;
+    color: #fff;
+    background-color: #ff3e6c!important;
+}
+.popup_addres_header{
+  font-size: 14px;
+  font-weight: 700;
+  color: gray;
+}
+.make_default_address{
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+.make_default_address>input{
+  width: 16px;
+}
+.make_default_address>label{
+  font-size: 14px;
+  color: gray;
+  margin-left: 10px;
+}

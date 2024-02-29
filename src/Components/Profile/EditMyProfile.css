@@ -1,0 +1,176 @@
+.profile_my_header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 81px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.profile_account_header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 60px;
+    margin-left: 143px;
+    margin-right: 156px;
+}
+
+.profile_account_header>p {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.profile_account_header>span {
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.profile_order_content {
+    display: flex;
+    flex-direction: row;
+}
+.profile_my_order_head {
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    width: 170px;
+    border-right: 1px solid #ccc;
+}
+.profile_btn_overview {
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+.profile_order_return {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    width: 170px;
+    border-right: 1px solid #ccc;
+}
+
+.profile_order_return>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+.profile_order_credits {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.profile_order_credits>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+.profile_order_account {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.profile_order_account>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+.edit_main_prfile{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 750px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.edit_main_prfile>button{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ff3e6c;
+    background-color: #ff3e6c;
+    margin-bottom: 60px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+}
+.edite_details{
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.alternate_number{
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile_mobile{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #d4d5d9;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 73px;
+}
+.profile_mobile>button{
+    border: 1px solid #d4d5d9;
+    color: black;
+    margin-left: 195px;
+    padding: 10px;
+    text-align: center;
+    width: 280px;
+    height: 42px;
+    margin-top: 11px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.edit_main_prfile>input{
+margin-left: 70px;
+margin-right: 70px;
+padding: 10px;
+border: 1px solid #d4d5d9;
+margin-top: 15px;
+font-size: 14px;
+}
+.edit_main_prfile>input:focus{
+    outline: none;
+    }
+.profile_number_label{
+    display: flex;
+    flex-direction: column;
+}
+.profile_number_label>span{
+    font-size: 10px;
+    color: gray;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.edit_profile_number{
+    display: flex;
+    flex-direction: row;
+}
+.edit_profile_number>p{
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 2px
+}
+.edit_profile_number>span{
+    color:rgb(3, 166, 133);
+    font-size: 18px;
+    margin-top: 4px;
+    margin-left: 5px;
+}

@@ -1,0 +1,344 @@
+._my_header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 81px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.account_header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 60px;
+    margin-left: 143px;
+    margin-right: 156px;
+}
+
+.account_header>p {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.account_header>span {
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.order_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.my_order_head {
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    width: 170px;
+    border-right: 1px solid #ccc;
+}
+
+.btn_overview {
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.order_return {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    width: 170px;
+    border-right: 1px solid #ccc;
+}
+
+.order_return>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.order_credits {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.order_credits>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.order_account {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.order_account>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.myntra_insider_enroll {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #eee;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(236, 156, 156);
+}
+
+.myntra_insider_supercoins {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 10px;
+    background: 0;
+}
+
+.myntra_insider_supercoins>p {
+    font-size: 13px;
+    font-weight: 700;
+    background: 0;
+
+}
+
+.myntra_insider_supercoins>span {
+    font-size: 12px;
+    margin-top: -18px;
+    background: 0;
+}
+
+.myntra_insider_enroll>button {
+    border: 1px solid #ff3e6c;
+    color: #fff;
+    background-color: #ff3e6c;
+    width: 78px;
+    height: 35px;
+    margin-left: 335px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.order_filter {
+    display: flex;
+    flex-direction: row;
+}
+
+.order_filter_header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.filter_box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+.order_filter_header>p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.order_filter_header>span {
+    font-size: 12px;
+    margin-top: -18px;
+}
+
+.filter_box>span {
+    border: 1px solid #ccc;
+    border-right: 0;
+    padding: 9px;
+    height: 40px;
+}
+
+.filter_box>input {
+    border: 1px solid #ccc;
+    border-left: 0;
+    height: 40px;
+}
+
+.filter_box>input:focus {
+    outline: none;
+}
+
+.filter_box>button {
+    border: 1px solid #ccc;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+    width: 94px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+
+.filter_tune {
+    color: gray;
+}
+
+.order_purchased {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+}
+
+.order_purchase_cancel {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+}
+
+.orderering_status {
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+    margin-top: 15px;
+}
+
+.orderering_status>span {
+    background: rgb(3, 166, 133);
+    color: white;
+    border-radius: 50%;
+    width: 36px;
+    padding: 5px;
+}
+
+.cance_orderering_status {
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+    margin-top: 15px;
+}
+
+.cance_orderering_status>span {
+    background: #f1f1f1;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+}
+
+.arriving_order_stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.cancel_order_stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.cancel_order_stats>p {
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 15px;
+    color: black;
+}
+
+.cancel_order_stats>span {
+    margin-top: -18px;
+    font-size: 13px;
+    color: gray;
+    margin-left: 13px;
+}
+
+.arriving_order_stats>p {
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 15px;
+    color: rgb(3, 166, 133);
+}
+
+.arriving_order_stats>span {
+    margin-top: -18px;
+    font-size: 13px;
+    color: gray;
+    margin-left: 13px;
+}
+
+.arriving_order_stats>img {
+    margin-left: 141px;
+    margin-top: -16px;
+}
+
+.purchased_item_stats {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-top: 13px;
+    background-color: #f9f6f6;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.purchased_item_stats:hover {
+    background-color: #f1f1f1;
+}
+
+.purchased_item_stats>img {
+    width: 54px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.purchased_item_stats>span {
+    margin-left: 355px;
+    margin-top: 40px;
+    color: gray;
+    background: 0;
+}
+
+.purchased_item_size_name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    background: 0;
+}
+
+.purchased_item_size_name>h6 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 25px;
+    background: 0;
+}
+
+.purchased_item_size_name>span {
+    font-size: 13px;
+    color: gray;
+    margin-top: -5px;
+    background: 0;
+}
+
+.purchased_item_size_name>p {
+    font-size: 13px;
+    color: gray;
+    margin-top: -5px;
+    background: 0;
+}

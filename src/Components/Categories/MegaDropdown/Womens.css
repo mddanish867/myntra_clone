@@ -1,0 +1,26 @@
+*{
+    font-family: 'poppins',sans-serif;
+}
+.nav_links_column_women{
+    width: 325px;
+    padding: 10px;
+}
+.heading_category_women{
+    font-size: 12px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin-top: -25px;
+    background: 0;
+}
+.heading_category_women:hover{
+    font-weight: 600;
+}
+.nav_links_column_women li{
+    font-size: 10px;
+    list-style: none;
+    text-decoration: none;
+}

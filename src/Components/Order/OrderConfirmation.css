@@ -1,0 +1,228 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .cart_header{
+        width: 100%;
+    }
+   .cart_address_stepper{
+    width: 100%;
+   }
+   .cart_auth_sec{
+    width: 100%;
+   }
+   .main_header{
+    width: 1200px;
+   }
+  }
+.main_header{
+    margin-top: 60px;
+    margin-left: 146px;
+    margin-right: 146px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 950px;
+}
+.order_confirmation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #eee;
+    margin-top: 10px;
+}
+.order_confirmation>img{
+    width: 50px;
+    margin-top: 20px;
+}
+.order_confirmation_tag{
+    color: darkcyan;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.order_confirmation_deails{
+    color: gray;
+    font-size: 18px;
+}
+.order_confirmation_deails2{
+    color: gray;
+    font-size: 18px;
+    margin-top: -15px;
+}
+.order_details{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 1px solid #eee;
+    margin: 10px 160px 20px 160px;
+    margin-bottom: 20px;
+}
+.text-muted{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+.customer_name{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 12px;
+}
+.delivery_address{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.delivery_address>img{
+    margin-top: -60px;
+    margin-left: 140px;
+}
+.btn-default{
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    height: 33px;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 1px solid #ff3e6c;
+    color: #ff3e6c;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 8px;
+    padding-left: 17px;
+}
+.btn-default:hover{
+    border: 1px solid #ff3e6c;
+    color: #ff3e6c;
+}
+.btn-default:focus{
+    border: 1px solid #ff3e6c;
+    color: #ff3e6c;
+}
+.btn-default > span{
+    margin-top: -6px;
+    padding: 2px;
+}
+.order_track_heading{
+    margin-top: -15px;
+    margin-left: 15px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.order_confirmation_pay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #eee;
+    margin-left: 238px;
+    margin-right: 238px;
+    height: 170px;
+    margin-bottom: 30px;
+}
+.order_pay{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.order_pay>a{
+    text-decoration: none;
+    color: #ff3e6c;
+    font-weight: 700;
+}
+.paynow_image{
+    margin-left: 338px;
+    margin-top: -70px;
+    height: 77px;
+    width: 140px;
+}
+.order_pay_badge{
+    margin-right: 225px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.order_pay>span{
+    color: gray;
+    margin-right: 245px;
+
+}
+.badge-primary{
+    background: #03a685;
+    border-radius: 2px;
+    margin-left: 6px
+}
+.order_confirm_slide{
+    border: 1px solid #eee;
+    margin-left: 238px;
+    margin-right: 238px;
+    height: 170px;
+    margin-bottom: 30px;
+} 
+.carousel_order_confirmed{
+    display: flex;
+    flex-direction: row;
+    width: 325px;
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 120px;
+}
+.cont_shopping{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 193px;
+    margin-right: 150px;
+}
+.btn_continue{
+    padding: 9px;
+    border: 1px solid #ccc;
+    font-weight: 600;
+    width: 280px;
+    border-radius: 3px;
+}
+.btn_view_order{
+    padding: 9px;
+    background-color: #ff3e6c;
+    border: 1px solid #ff3e6c;
+    color: #fff;
+    font-weight: 600;
+    width: 280px;
+    border-radius: 3px;
+margin-left: 10px;
+}
+.cart_header {
+    height: 78px;
+    border: 1ps solid #ccc;
+}
+.logo_container {
+    margin-left: 51px;
+    margin-top: 4px;
+}
+.myntra_home {
+    height: 45px;
+    margin-top: 14px;
+    margin-left: -5px
+}
+.cart_address_stepper {
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    margin-left: 485px;
+    margin-top: -27px;
+}
+.cart_auth_sec {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1057px;
+    margin-top: -25px;
+}
+.cart_auth_sec>span {
+    font-size: 11px;
+    margin-top: 7px;
+    margin-left: 4px;
+    font-weight: 500;
+}
+.cart_sec_image {
+    height: 28px;
+
+}

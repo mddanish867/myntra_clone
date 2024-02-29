@@ -1,0 +1,64 @@
+*{background-color: #fff;}
+.header {
+    display: flex;
+    height: 81px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: "0 0px 10px 0 rgba(0, 0, 0, 0.14);";
+}
+.wishlist_main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+    margin-bottom: 250px;
+}
+
+.wishlist_heading{
+    margin-left: 75px;
+    margin-top: 52px;
+}
+.wishlist_image_btn{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.wishlist_image_btn > img{
+    width: 221px;
+    height: 285px;
+}
+.wishlist_cancel_btn{
+    margin-top: 10px;
+    margin-left: -35px;
+    height: 10px;
+}
+.wishlist_product{
+    margin-left: 7px;
+    margin-top: 17px;
+}
+.wishlist_product_price{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    border: 1px solid #eee;
+    width: 221px;
+    padding: 5px;
+}
+.wishlist_price_product{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.btn_move_to_bag{
+    margin-left: 70px;
+    border: 1px solid #eee;
+    width: 221px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.btn_mvto_bag_link{    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ff3e6c;
+}

@@ -1,0 +1,234 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) { 
+    .cancel_confirm_account_header{
+        width: 100%;
+    }       
+    .cancel_confirm_order_content{
+        width: 1200px;
+    }
+   }
+.cancel_confirmation_header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 81px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cancel_confirm_account_header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 60px;
+    margin-left: 143px;
+    margin-right: 156px;
+}
+
+.cancel_confirm_account_header>p {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.cancel_confirm_account_header>span {
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.cancel_confirm_order_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.cancel_confirm_my_order_head {
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    width: 170px;
+    border-right: 1px solid #ccc;
+}
+
+.cancel_confirm_btn_overview {
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.cancel_order_order_return {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    width: 170px;
+    border-right: 1px solid #ccc;
+}
+
+.cancel_order_order_return>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.cancel_confirm_order_credits {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.cancel_confirm_order_credits>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.cancel_confirm_order_account {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+
+.cancel_confirm_order_account>span {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.cancel_confirm_myorder_details {
+    background-color: #f1f1f1;
+    margin-right: 245px;
+    width: -webkit-fill-available;
+}
+
+.cancel_confirm_request {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cancel_confirm_request>img {
+    width: 45px;
+    margin-top: 30px;
+}
+
+.cancel_confirm_request>span {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.cancel_confirm_request>p {
+    font-size: 13px;
+    color: gray;
+}
+
+.cancel_order_details {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+}
+
+.cancel_order_details>span {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cancel_order_imgae {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1;
+    margin-top: 15px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.cancel_order_imgae>img {
+    width: 50px;
+    background: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px
+}
+
+.cancel_order_price_name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 15px;
+    background: 0;
+}
+
+.cancel_order_price_name>span {
+    font-size: 14px;
+    font-weight: 700;
+    background: 0;
+}
+
+.cancel_order_price_name>p {
+    font-size: 14px;
+    color: gray;
+    background: 0;
+}
+
+.refind_details_check {
+    display: flex;
+    flex-direction: column;
+    margin-left: -190px;
+}
+
+.cancel_order_refund_check {
+    display: flex;
+    flex-direction: row;
+    margin-right: 55px;
+}
+
+.cancel_order_refund_check>span {
+    font-size: 18px;
+    color: green;
+    margin-top: 20px;
+}
+
+.cancel_rder_notes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-left: 15px
+}
+
+.cancel_rder_notes>span {
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+    margin-top: 5px
+}
+
+.cancel_rder_notes>p {
+    font-size: 14px;
+}
+.cancel_done_btn{
+    border: 1px solid #ff3e6c;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 215px;
+    width: 620px;
+    padding: 10px;
+    background-color: #ff3e6c;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
