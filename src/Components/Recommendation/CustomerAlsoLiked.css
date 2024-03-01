@@ -7,6 +7,7 @@
 .customer_product_main{
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 .customer_product_header{
     text-transform: uppercase;
