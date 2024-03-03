@@ -49,6 +49,8 @@ function Layout() {
     <hr/>
     <div className='copyright'>
     © 2024 www.myntra.com. All rights reserved.
+    <br/>
+    <b>Note:</b> Only for Learning Purpose, Credit: Myntra
 
     </div>
     </>

@@ -1,0 +1,33 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .grand_global_heading {
+        width: 100%;
+    }
+    .grand_global_img{
+        width: 150px;        
+    }
+    .shop_bygrand_global_to_bag{
+        align-items: center;
+    }    
+}
+.grand_global_heading {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.6em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    margin-top: 85px;
+}
+.shop_bygrand_global_to_bag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    padding: 30px;
+    width: 100%;
+}
+.grand_global_img{
+    width: 170px;
+}

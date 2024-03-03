@@ -11,6 +11,7 @@ if (data) {
   categories = Array.from(new Set(categoryList));
   let subCategoryList = data.map((items: any) => items.subCategoryName);
   subCategory = Array.from(new Set(subCategoryList));
+
 }
 // Function to chunk array into groups of size 'chunk size'
 const chunkArray = (arr: any, chunkSize: any) => {

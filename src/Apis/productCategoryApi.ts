@@ -18,7 +18,7 @@ const productCategoryApi = createApi({
       }),
       providesTags: ["ProductCategory"],
     }),
-     // Egt Categories details by main category or category
+     // Get Categories details by main category or category
      getProductCategoryDetails: builder.query({
       query: (category) => ({
         url: `Categories/all_category?maincategory=${category}`,

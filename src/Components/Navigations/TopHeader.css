@@ -82,6 +82,10 @@
     outline: none;
     background-color: #fff;
 }
+.search_input:focus .search_icon{   
+    background-color: #fff;
+}
+
 
 .search_icon {
     box-sizing: content-box;
